@@ -1,4 +1,6 @@
 "use strict";
+import React from 'react';
+
 // Create a new component. This component should produce some HTML
 
 const App = function(){
@@ -6,3 +8,5 @@ const App = function(){
 };
 
 // Take this component's generated HTML and put it on the page (in the DOM)
+
+React.render(App);
